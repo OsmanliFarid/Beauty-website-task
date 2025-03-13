@@ -1,0 +1,106 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+@font-face {
+    font-family: manrope;
+    src: url(../fonts/manrope/Manrope-Regular.ttf);
+}
+@font-face {
+    font-family: playfair;
+    src: url(../fonts/playfair/PlayfairDisplay-Regular.ttf);
+}
+.container{
+    max-width: 90vw;
+    margin: auto;
+}
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.links{
+    display: flex;
+    align-items: center;
+}
+.links a{
+    margin-left: 40px;
+    font-family: manrope;
+    color: #555555;
+}
+.svg-icon4{
+    background-color: #7A9CA5;
+    padding: 10px 40px;
+}
+.logo{
+    display: flex;
+}
+.contact{
+    display: flex;
+    margin-left: 30px;
+    align-items: center;
+}
+.links-svg-icons-box{
+    margin-left: 10px;
+}
+.links-svg-icons-box img{
+    margin-left: 10px;
+}
+.contact-links{
+    color: #141414;
+    margin-left: 20px;
+}
+.header-background{
+    background: url(../images/Background.png) no-repeat center;
+    background-size: cover;
+    height: 89vh;
+}
+.header-navbar-title-box{
+    display: flex;
+    align-items: center;
+}
+.header-navbar-text{
+    color: #5C8692;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 10%;
+    margin-left: 5px;
+}
+.header-navbar-title-img{
+    font-size: 15px;    
+}
+.header-main-title-desc{
+    font-family: playfair;
+     font-weight: 700;
+     font-size: 70px;
+     width: 510px;
+     line-height: 84px;
+}
+.header-main-title-desc2{
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 170%;
+    width: 508px;
+    color: #555555;
+    padding: 30px 0px 19px 0px;
+}
+.header-main-title-btn{
+    display: inline-block;
+    background-color: #5C8692;
+    color: #fff;
+    padding: 20px 35px;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 125%;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.headerandmain-boxs{
+    padding-top: 80px;
+    margin-left: 100px;
+}
