@@ -196,3 +196,51 @@
     border: 2px solid #5C8692;
     padding: 15px 50px;
 }
+.reservition-click{
+    display: inline-block;
+}
+.bars-svg-icon{
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+@media(max-width:576px){
+    .container{
+        max-width: 100vw;
+    }
+    .links{
+        display: none;
+    }
+    .contact{
+        display: none;
+    }
+    .bars-svg-icon{
+        display: block;
+    }
+    .headerandmain-boxs{
+        margin-left: 0px;
+        padding-top: 120px;
+    }
+    .header-background{
+        width: 100%;
+    }
+    .main-carts-boxs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .header-navbar-text{
+        font-size: 10px;
+    }
+    .header-main-title-desc{
+        font-size: 14px;
+        width: 200px;
+        line-height: 20px;
+    }
+    .header-main-title-desc2{
+        width: 200px;
+    }
+    .header-main-title-btn{
+        padding: 10px 10px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+}
