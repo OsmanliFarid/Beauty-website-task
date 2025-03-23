@@ -13,7 +13,7 @@
     src: url(../fonts/playfair/PlayfairDisplay-Regular.ttf);
 }
 .container{
-    max-width: 90vw;
+    max-width: 1229px;
     margin: auto;
 }
 .header-navbar{
@@ -110,7 +110,6 @@
     align-items: center;
     justify-items: center;
     
-    
 }
 .main-cart-box{
     width: 330px;
@@ -204,9 +203,51 @@
     width: 50px;
     height: 50px;
 }
+.main-header-background{
+    background-color: #EBF3F5;
+    height: 900px;
+    margin-top: 50px;
+    width: 100%;
+}
+.main-header-about-boxs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 80px;
+}
+.about-back-img{
+    padding-top: 100px;
+    display: inline-block;
+}
+.main-header-title{
+    font-family: manrope;
+    color: #5C8692;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.main-header-desc{
+    font-family: playfair;
+    color: #141414;
+    font-weight: 700;
+    font-size: 45px;
+    width: 435px;
+}
+.main-header-desc2{
+    color: #555555;
+    font-weight: 400;
+    font-family: manrope;
+    font-size: 18px;
+    width: 529px;
+    padding: 30px 0px;
+}
+.about-img-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
 @media(max-width:576px){
     .container{
-        max-width: 100vw;
+        max-width: 100%;
+        overflow: hidden;
     }
     .links{
         display: none;
@@ -242,5 +283,30 @@
         padding: 10px 10px;
         font-weight: 400;
         letter-spacing: 0;
+    }
+    .main-header-about-boxs{
+        justify-content: center;
+        margin: 0px 0px;
+        flex-wrap: wrap;
+    }
+    .main-header-title{
+        text-align: center;
+        padding: 50px 0px 30px 0px;
+    }
+    .main-header-desc{
+        font-size: 30px;
+        margin: auto;
+        text-align: center;
+    }
+    .main-header-desc2{
+        font-size: 16px;
+        text-align: center;
+        margin: auto;
+    }
+    .about-img-box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        margin-right: -20px;
+        justify-items: space-around;
     }
 }
